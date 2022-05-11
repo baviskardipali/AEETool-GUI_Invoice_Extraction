@@ -18,3 +18,12 @@ Poppler is a free software utility library for rendering Portable Document Forma
 `Poppler installation guide <https://blog.alivate.com.au/poppler-windows/index.html>`__
 
 
+Virtual environment setup(optional)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Depending on the operating system in use, the user can setup a virtual environment to run this GUI.
+
+To install the required libraries refer to requirements.txt file in the repository main page:
+.. code:: shell
+
+    pip install -r requirements.txt
+
