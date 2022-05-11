@@ -5,7 +5,7 @@ This tool will assist in the automated and efficient extraction of template-fr
 
 Pre-trained Neural Networks such as BERT, RoBERTa and DistilBERT are used to extract custom entities from invoice documents.
 
-.. image:: https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg
+.. image:: https://github.com/baviskardipali/GUI_Invoice_Extraction/blob/main/Images/Screenshot%20(399).PNG
      :alt: GUI Main Page
      
 Installation
