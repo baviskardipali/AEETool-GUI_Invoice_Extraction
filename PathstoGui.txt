@@ -1,0 +1,10 @@
+Instructions to run the NER invoice GUI:
+
+(base) C:\Users\shimp>conda activate NER-invoices-gui
+
+(NER-invoices-gui) C:\Users\shimp>cd C:\Users\shimp\anaconda3\envs\NER-invoices-gui\GUI
+
+(NER-invoices-gui) C:\Users\shimp\anaconda3\envs\NER-invoices-gui\GUI>python app.py
+
+*********
+
