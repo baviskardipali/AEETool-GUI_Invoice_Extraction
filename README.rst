@@ -1,4 +1,5 @@
-# GUI_Invoice_Extraction
+GUI_Invoice_Extraction
+======================
 
 This tool will assist in the automated and efficient extraction of template-free data from unstructured invoice documents. 
 
