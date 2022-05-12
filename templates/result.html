@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <style>
+        table, th, td {
+            border: 0.5px solid black;
+          }
+        html, body {
+        width: 100%;
+        }
+        table{
+            margin: 0 auto;
+            margin-top: 35;
+        }
+        h2{
+            margin-top: 150;
+            text-align : center;
+        }
+        form{
+            text-align: center;
+            margin-top: 35x;
+        }
+        button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        }
+        </style>
+    </head>
+    <body>
+        <h2>Named Entity Recognition based Text Extraction</h2>
+        <table class="center" id='results'>
+            <tr>
+                <th>Entity</th>
+                <th>Value</th> 
+              </tr>
+            {% for key, value in result.items() %}
+            <tr>
+                    <th> {{ key }} </th>
+                    <td> {{ value[0] }} </td>
+            </tr>
+            {% endfor %}
+        </table>
+
+        <form method ="post" action="/download">
+            <button type="submit" name="submit_a" value="submit_a"> Export</button>
+        </form> 
+    </body>
+    <script>
+    </script>
+</html>
